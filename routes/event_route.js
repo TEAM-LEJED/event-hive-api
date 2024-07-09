@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { getEvents, postEvent, getEventById, patchEvent, deleteEvent } from "../controllers/event_controller.js";
+import { remoteUpload } from "../middlewares/upload.js";
 
 
 // Create router
